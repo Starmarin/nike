@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+        integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&family=Roboto:wght@300;400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>Nike</title>
+</head>
+
+<body class="page">
+    <header class="header block">
+        <div class="logo">
+            <a class="logo__link link" href="#">
+                <img class="logo__image" src="./img/logo.png" alt="logo">
+            </a>
+        </div>
+        <nav class="navbar">
+            <ul class="menu">
+                <li class="menu__item">
+                    <a href="" class="menu__link link">LIFESTYLE</a>
+                </li>
+                <li class="menu__item">
+                    <a href="" class="menu__link link"> RUNNING</a>
+                </li>
+                <li class="menu__item">
+                    <a href="" class="menu__link link"> FOOTBALL</a>
+                </li>
+                <li class="menu__item">
+                    <a href="./2/index.html" target="blank" class="menu__link link">SKATEBOARDING</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="dropdown">
+            <span class="dropdown__toggle"><img class="dropdown__img" src="./img/btn_menu.png" alt="menu"></span>
+        </div>
+    </header>
+    <main class="content block">
+        <div class="product-card">
+            <div class="preview">
+                <div class="product-slider">
+                    <div class="product-slider__view slider-view">
+                        <form action="#">
+                            <ul class="slider-view__images">
+                                <li class="slider-view__item">
+                                    <input class="slider-view__input input" type="radio" name="slide" checked
+                                        id="slide_1">
+                                    <img src="./img/img_1.png" alt="" class="slider-view__img">
+                                </li>
+                                <li class="slider-view__item">
+                                    <input class="slider-view__input input" type="radio" name="slide" id="slide_2">
+                                    <img src="./img/img_2.png" alt="" class="slider-view__img">
+                                </li>
+                                <li class="slider-view__item">
+                                    <input class="slider-view__input input" type="radio" name="slide" id="slide_3">
+                                    <img src="./img/img_3.png" alt="" class="slider-view__img">
+                                </li>
+                            </ul>
+                        </form>
+                    </div>
+                    <div class="product-slider__slider-control slider-control">
+                        <label for="slide_1" class="slider-control__item">
+                            <img src="./img/img_1.png" alt="" class="slider-control__item__img">
+                        </label>
+                        <label for="slide_2" class="slider-control__item">
+                            <img src="./img/img_2.png" alt="" class="slider-control__item__img">
+                        </label>
+                        <label for="slide_3" class="slider-control__item">
+                            <img src="./img/img_3.png" alt="" class="slider-control__item__img">
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="description">
+                <div class="label">new</div>
+                <h3 class="promo-text">
+                    THE <span class="promo-text__highlight">RUNNING</span>
+                    HAS JUST BEGUN
+                </h3>
+                <h2 class="product-name">Huarache</h2>
+                <div class="rate">
+                    <i class="rate__item--solid fa fa-star"></i>
+                    <i class="rate__item--solid fa fa-star"></i>
+                    <i class="rate__item--solid fa fa-star"></i>
+                    <i class="rate__item--solid fa fa-star"></i>
+                    <i class="rate__item  fa fa-star"></i>
+                </div>
+                <p class="price">$ 200</p>
+                <div class="size">
+                    <p class="size__title">Size</p>
+                    <form action="#" method="GET" class="size-select size__select">
+                        <input class="size-select__input input" type="radio" value="size_7" id="size_7" name=" size">
+                        <label class="size-select__label" for="size_7">7</label>
+                        <input class="size-select__input input" type="radio" value="size_8" id="size_8"
+                            name=" size"><label class="size-select__label" for="size_8">8</label>
+                        <input class="size-select__input input" checked type="radio" value="size_9" id="size_9"
+                            name=" size"><label class="size-select__label" for="size_9">9</label>
+                        <input class="size-select__input input" type="radio" value="size_10" id="size_10"
+                            name=" size"><label class="size-select__label" for="size_10">10</label>
+                        <input class="size-select__input input" type="radio" value="size_11" id="size_11"
+                            name=" size"><label class="size-select__label" for="size_11">11</label>
+                    </form>
+                </div>
+                <button class="button button--cart">add to cart</button>
+                <button class="button button--wishlist">WISHLIST</button>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+        integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&family=Roboto:wght@300;400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>Nike</title>
+</head>
+
+<body class="page">
+    <main class="content block">
+        <div class="product-card">
+            <div class="preview">
+                <div class="logo">
+                    <a class="logo__link link" href="#">
+                        <img class="logo__image" src="./img/logo.png" alt="logo">
+                    </a>
+                </div>
+                <div class="product__prewiev product">
+                    <div class="product__image">
+                        <img class="product__img" src="./img/model.png" alt="Nike SB Stefan 
+                        Janoski Max">
+                    </div>
+                </div>
+                <div class="product__color product-color">
+                    <form action="#" method="GET" class="color-select">
+                        <input class="color-select__input input" type="radio" value="grey" checked id="grey"
+                            name="color">
+                        <label class="color-select__label" for="grey"></label>
+                        <input class="color-select__input input" type="radio" value="white" id="white" name="color">
+                        <label class="color-select__label color-select__label--white" for="white"></label>
+                        <input class="color-select__input input" type="radio" value="red" id="red" name="color">
+                        <label class="color-select__label color-select__label--red" for="red"></label>
+                        <input class="color-select__input input" type="radio" value="blue" id="blue" name="color">
+                        <label class="color-select__label color-select__label--blue" for="blue"></label>
+                    </form>
+                </div>
+            </div>
+            <div class="description">
+                <h3 class="promo-text">
+                    Nike SB Stefan
+                    Janoski Max
+                </h3>
+                <h2 class="product-name">Unisex Skateboarding Shoe</h2>
+                <div class="rate">
+                    <i class="rate__item--solid fa fa-star"></i>
+                    <i class="rate__item--solid fa fa-star"></i>
+                    <i class="rate__item--solid fa fa-star"></i>
+                    <i class="rate__item fa fa-star"></i>
+                    <i class="rate__item fa fa-star"></i>
+                </div>
+                <div class="size">
+                    <form action="#" method="GET" class="size__select">
+                        <select class="size-select" name="select" size="1">
+                            <option class="size-select__option" selected value="s1">Size</option>
+                            <option class="size-select__option" value="s2">8</option>
+                            <option class="size-select__option" value="s3">9</option>
+                            <option class="size-select__option" value="s4">10</option>
+                        </select>
+                        <select class="qty-select" name="select" size="1">
+                            <option class="qty-select__option" selected value="s1">Qty</option>
+                            <option class="qty-select__option" value="s2">1</option>
+                            <option class="qty-select__option" value="s3">2</option>
+                            <option class="qty-select__option" value="s4">3</option>
+                        </select>
+                    </form>
+                </div>
+                <button class="button button--cart">Add to cart</button>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
